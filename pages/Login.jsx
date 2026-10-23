@@ -1,7 +1,7 @@
 import { useState, useContext } from "react"; 
 
 import { AuthContext } from "../context/AuthContext"; 
-
+import "../styles/site.css";
 import api from "../api/api"; 
 
 import { useNavigate } from "react-router-dom"; 
